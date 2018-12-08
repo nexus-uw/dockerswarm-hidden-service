@@ -15,7 +15,7 @@ keep pinging the IP. if the service moves to a new IP, this will mark the contai
 (note: boot times can be long since it currently needs to get all the tor network info each time on boot)
 
 ## how do I use this?
-I use the following docker-compose.yml
+I use the following docker-compose.yml and a pre-generated hidden service private key at ```./private_key```
 ```
 version: '3.6'
 services:
@@ -41,3 +41,4 @@ secrets:
 - let people use their own name for service being hosted
 - allow multiple services
 - load balancer for multi tor connections?
+- generate private keys on demand
