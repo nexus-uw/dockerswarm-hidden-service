@@ -1,6 +1,6 @@
 # dockerswarm-hidden-service (work in progress)
 
-[](https://hub.docker.com/r/nexusuw/dockerswarm-hidden-service/)
+[https://hub.docker.com/r/nexusuw/dockerswarm-hidden-service/](https://hub.docker.com/r/nexusuw/dockerswarm-hidden-service/)
 
 ## what is this
 docker image for hosting a tor hidden service on docker swarm
